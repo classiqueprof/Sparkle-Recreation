@@ -674,3 +674,73 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 1154px) {
+  .sparkle-logo {
+    width: 15rem;
+    height: 4rem;
+  }
+
+  .nav-list,
+  .nav-list2 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin: 2.8rem;
+    color: white;
+  }
+
+  .list1 {
+    list-style: none;
+    display: flex;
+  }
+
+  .nav-image {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-list {
+    color: rgb(151, 215, 0);
+  }
+
+  .list2 {
+    list-style: none;
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+
+  .feet a {
+    text-decoration: none;
+    color: white;
+    margin: 2rem;
+  }
+
+  .feet2 a {
+    text-decoration: none;
+    margin: 2rem;
+    color: rgb(255, 232, 232);
+    background-color: rgb(151, 215, 0);
+    padding: 1rem;
+    border-radius: 0.6rem;
+  }
+
+  .nav-list:hover,
+  .nav-list2:hover,
+  .feet a:hover {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .feet2 a:hover {
+    background-color: rgb(118, 189, 20);
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+    background-color: black;
+    min-height: 13vh;
+  }
+}
