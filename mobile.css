@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 50%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0rem;
+  /* flex-direction: column; */
+  background-color: black;
+  /* min-height: 50vh; */
+}
+
+.list1,
+.list2 {
+  display: none;
+}
+.feet {
+  margin-left: -2rem;
+}
+
+.nav-image img {
+  margin-left: -20rem;
+}
+
+.feet2 {
+  display: none;
+}
+
+.nav-image {
+  display: block;
+}
+
+.never {
+  display: block;
+  text-align: center;
+  padding: 0.5rem 4rem 0.5rem;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  min-height: 150vh;
+  flex-direction: column-reverse;
+  gap: 5rem;
+  padding: 10rem 4rem 10rem;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin-bottom: 8rem;
+  flex-direction: column-reverse;
+  padding: 10rem 4rem 5rem;
+}
+
+.set,
+.set2,
+.set3 {
+  display: none;
+}
+
+.stash {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(248, 251, 255);
+  min-height: 100vh;
+  flex-direction: column;
+  gap: 10rem;
+  padding: 10rem 4rem 10rem;
+}
+
+.break {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(248, 251, 255);
+  min-height: 100vh;
+  flex-direction: column-reverse;
+  gap: 10rem;
+  padding: 10rem 2rem 10rem;
+}
+
+.payment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(248, 251, 255);
+  min-height: 100vh;
+  flex-direction: column;
+  gap: 10rem;
+  padding: 10rem 2rem 10rem;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(248, 251, 255);
+  min-height: 100vh;
+  gap: 10rem;
+  flex-direction: column-reverse;
+  padding: 10rem 2rem 10rem;
+}
+
+.credit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(248, 251, 255);
+  flex-direction: column;
+  gap: 10rem;
+  padding: 10rem 4rem 10rem;
+}
+
+.our {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 50vh;
+  background-image: url("Images/downloads-wrapper-13862367a37e937b453e8c8ed48749ca.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 90vw;
+  margin: 0 auto;
+  border-radius: 2rem;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.dotted,
+.dotted2 {
+  display: none;
+}
+
+.foot {
+  display: flex;
+  justify-content: center;
+  padding: 6rem 0 4rem 0;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.product,
+.base,
+.features,
+.tax,
+.spar,
+.legal,
+.legal2,
+.low {
+  margin-left: 15rem;
+}
+
+@media (max-width: 462px) {
+  html {
+    font-size: 43.75%;
+  }
+
+  br {
+    display: none;
+  }
+}

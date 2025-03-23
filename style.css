@@ -1,0 +1,676 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.sparkle-logo {
+  width: 15rem;
+  height: 4rem;
+}
+
+.nav-list,
+.nav-list2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin: 2.8rem;
+  color: white;
+}
+
+.list1 {
+  list-style: none;
+  display: flex;
+}
+
+.nav-image {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  color: rgb(151, 215, 0);
+}
+
+.list2 {
+  list-style: none;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.feet a {
+  text-decoration: none;
+  color: white;
+  margin: 2rem;
+}
+
+.feet2 a {
+  text-decoration: none;
+  margin: 2rem;
+  color: rgb(255, 232, 232);
+  background-color: rgb(151, 215, 0);
+  padding: 1.6rem 2rem;
+  border-radius: 0.6rem;
+}
+
+.nav-list:hover,
+.nav-list2:hover,
+.feet a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.feet2 a:hover {
+  background-color: rgb(118, 189, 20);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12rem;
+  background-color: black;
+  min-height: 13vh;
+}
+
+.never {
+  font-size: 1.4rem;
+  background-color: rgb(79, 128, 8);
+  color: white;
+  min-height: 8vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.hero h1 {
+  font-size: 5.6rem;
+  font-weight: 900;
+}
+
+.better {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 5rem;
+  line-height: 1.6;
+}
+
+.store {
+  width: 15rem;
+  height: 4.8rem;
+  margin-bottom: 5rem;
+  font-weight: 400;
+}
+
+.spark {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.bank {
+  font-size: 2rem;
+}
+
+.hero2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.first-phone img {
+  width: 25.6rem;
+  height: 48.1rem;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+  color: white;
+  min-height: 120vh;
+}
+
+.store-images {
+  display: flex;
+  gap: 1rem;
+}
+
+.money {
+  color: rgb(70, 184, 57);
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+}
+
+.free {
+  font-size: 3.6rem;
+  font-weight: 800;
+  color: rgb(24, 59, 86);
+}
+
+.dom {
+  margin-bottom: 5rem;
+}
+
+.today img {
+  width: 45.1rem;
+  height: 45.2rem;
+}
+
+.about {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 125vh;
+  margin-bottom: 8rem;
+}
+
+.free {
+  margin-top: 8.5rem;
+}
+
+.get {
+  position: relative;
+  flex: 0 0 53rem;
+}
+
+.set {
+  position: absolute;
+  left: 5rem;
+  top: 40rem;
+  z-index: -1;
+}
+
+.set2 {
+  position: absolute;
+  top: -1.5rem;
+  right: 0;
+  z-index: -1;
+}
+
+.set3 {
+  position: absolute;
+  top: 28rem;
+  right: 0;
+  z-index: -1;
+}
+
+.stash {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(248, 251, 255);
+  min-height: 100vh;
+}
+
+.account img {
+  width: 45.1rem;
+  height: 45.2rem;
+}
+
+.save {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: rgb(70, 184, 57);
+  margin-bottom: 2.2rem;
+}
+
+.open {
+  font-size: 3.6rem;
+  font-weight: 800;
+  color: rgb(24, 59, 86);
+  margin-bottom: 2rem;
+}
+
+.docs {
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.6;
+  color: rgb(90, 113, 132);
+  margin-bottom: 2rem;
+}
+
+.group {
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.6;
+  color: rgb(90, 113, 132);
+  margin-bottom: 3rem;
+}
+
+.more1 {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgb(70, 184, 57);
+}
+
+.analyse {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: rgb(70, 184, 57);
+  margin-bottom: 2.5rem;
+}
+
+.finance {
+  font-size: 3.6rem;
+  font-weight: 800;
+  color: rgb(24, 59, 86);
+  margin-bottom: 2rem;
+}
+
+.track {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: rgb(90, 113, 132);
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.month {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: rgb(90, 113, 132);
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+}
+
+.more2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgb(70, 184, 57);
+  text-decoration: none;
+}
+
+.chart img {
+  width: 45.1rem;
+  height: 45.2rem;
+}
+
+.break {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(248, 251, 255);
+  min-height: 100vh;
+}
+
+.send img {
+  width: 45.1rem;
+  height: 45.2rem;
+}
+
+.bills {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: rgb(70, 184, 57);
+  margin-bottom: 3rem;
+}
+
+.easy {
+  font-size: 3.6rem;
+  font-weight: 800;
+  color: rgb(24, 59, 86);
+  margin-bottom: 2rem;
+}
+
+.family {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: rgb(90, 113, 132);
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.top {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: rgb(90, 113, 132);
+  line-height: 1.6;
+  margin-bottom: 3rem;
+}
+
+.more3 {
+  color: rgb(70, 184, 57);
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.pay {
+  color: rgb(24, 59, 86);
+}
+
+.payment {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(248, 251, 255);
+  min-height: 100vh;
+}
+
+.seam {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: rgb(70, 184, 57);
+  margin-bottom: 3rem;
+}
+
+.debit {
+  font-size: 3.6rem;
+  font-weight: 800;
+  color: rgb(24, 59, 86);
+  margin-bottom: 2rem;
+}
+
+.online {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: rgb(90, 113, 132);
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.daily {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: rgb(90, 113, 132);
+  line-height: 1.6;
+  margin-bottom: 3rem;
+}
+
+.more4 {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgb(70, 184, 57);
+}
+
+.visa img {
+  width: 45.1rem;
+  height: 45.2rem;
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(248, 251, 255);
+  min-height: 100vh;
+}
+
+.loan img {
+  width: 45.1rem;
+  height: 45.2rem;
+}
+
+.help {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: rgb(70, 184, 57);
+  margin-bottom: 3rem;
+}
+
+.quick {
+  font-size: 3.6rem;
+  font-weight: 800;
+  color: rgb(24, 59, 86);
+  margin-bottom: 2rem;
+}
+
+.snap {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: rgb(90, 113, 132);
+  margin-bottom: 5rem;
+}
+
+.more5 {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: rgb(70, 184, 57);
+}
+
+.credit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(248, 251, 255);
+}
+
+.pit {
+  font-size: 3.6rem;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 3rem;
+}
+
+.mint {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 6rem;
+}
+
+.google img {
+  width: 17rem;
+  height: 5rem;
+  border: 0.1rem solid white;
+  border-radius: 0.6rem;
+}
+
+.google {
+  display: flex;
+  gap: 3rem;
+}
+
+.part {
+  background-color: rgb(248, 251, 255);
+  min-height: 70vh;
+}
+
+.our {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 60vh;
+  background-image: url("Images/downloads-wrapper-13862367a37e937b453e8c8ed48749ca.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 80vw;
+  margin: auto;
+  border-radius: 2rem;
+}
+
+.real {
+  position: relative;
+}
+
+.dotted {
+  position: absolute;
+  top: -9rem;
+  left: 21rem;
+}
+
+.dotted2 {
+  position: absolute;
+  top: -25rem;
+  right: 17rem;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  min-height: 115vh;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 6rem 0 4rem 0;
+}
+
+.base img {
+  width: 20rem;
+  height: 5.2rem;
+  margin-bottom: 2.5rem;
+}
+
+.lifestyle {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.5;
+}
+
+.product {
+  margin-top: 1.5rem;
+}
+
+.pro {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.give {
+  list-style: none;
+  line-height: 3;
+}
+
+.per {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.biz {
+  text-decoration: none;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.biz:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.feat {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.sit {
+  list-style: none;
+  line-height: 3;
+  font-size: 1.6rem;
+}
+
+.tabs {
+  color: white;
+  text-decoration: none;
+}
+
+.tabs:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.tax {
+  margin-top: 5rem;
+}
+
+.payroll {
+  list-style: none;
+  line-height: 3;
+  font-size: 1.6rem;
+}
+
+.roll {
+  color: white;
+  text-decoration: none;
+}
+
+.roll:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.spar {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.lead {
+  list-style: none;
+  font-size: 1.6rem;
+}
+
+.legal {
+  line-height: 3;
+}
+
+.legal2 {
+  margin-top: 1rem;
+}
+
+.ship {
+  color: white;
+  text-decoration: none;
+}
+
+.ship:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.follow {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.social-media {
+  list-style: none;
+  line-height: 3;
+  font-size: 1.6rem;
+}
+
+.media {
+  text-decoration: none;
+  color: white;
+}
+
+.media:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.last img {
+  width: 10rem;
+  height: 9rem;
+}
+
+.central {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.5;
+  text-align: center;
+}
+
+.last {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
